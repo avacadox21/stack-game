@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+
+:root{
+    --width: 400px;
+    --boardWidth: 500px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    overflow-x: hidden;
+}
+.game{
+    width: var(--boardWidth);
+    height: 500px;
+    margin:auto;
+    border: 30px groove rgb(10, 85, 14);
+}
+
+.slider{
+    visibility: hidden;
+    background-color: rgb(27, 103, 202);
+    height: 20px;
+    width: 100px;
+    position: relative;
+}
+#slider1{
+    visibility: visible;
+}
+.animate{
+    animation: side 4s infinite linear;
+}
+@keyframes side{
+    0%{left:0px}
+    50%{left:var(--width)}
+    100%{left:0px}
+}
+
+
+button{
+    font-size: 2rem;
+    padding: 0.5rem 2rem;
+    border: 3px solid black;
+    border-radius: 0.3rem;
+    margin: 1rem auto;
+    display: block;
+    font-family: Oxygen;
+}
+#btn{
+    background-color: lightgreen;
+}
+#btn:hover, #restart:hover{
+    background-color: rgb(0, 204, 255); 
+}
+#btn:active, #restart:active{
+    background-color: rgb(201, 92, 92);
+}
+#restart{
+    background-color: rgb(138, 98, 26);
+    display: none;
+}
