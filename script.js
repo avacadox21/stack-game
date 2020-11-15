@@ -1,3 +1,5 @@
+alert("This game is mainly meant for desktop users, sorry for inconvenience");
+
 if(window.innerWidth < 500){
     var boardWidth = window.innerWidth-2;
     var gameWidth = window.innerWidth-102;
