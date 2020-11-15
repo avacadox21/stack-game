@@ -16,6 +16,7 @@
     margin:auto;
     border: 30px groove rgb(10, 85, 14);
     overflow: hidden;
+    max-width:100%;
 }
 
 .slider{
