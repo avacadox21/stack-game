@@ -1,6 +1,4 @@
-function warning() {
-    alert("Dear users, this website is meant only for pc users, if you face an issue with the layout, please bear with us");
-}
+
 if(window.innerWidth < 500){
     var boardWidth = window.innerWidth-2;
     var gameWidth = window.innerWidth-102;
