@@ -61,8 +61,4 @@ button{
     background-color: rgb(138, 98, 26);
     display: none;
 }
-@media (max-width: 800px) {
-    .game {
-  width: 200px;
-    }
-}
+
